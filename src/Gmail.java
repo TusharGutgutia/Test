@@ -17,7 +17,8 @@ public class Gmail
 {
     WebDriver driver = null;
     WebElement element = null;
-
+    
+    //  ***************** Chrome Driver Configuration ******************************
     @BeforeMethod
 	public void setUp() throws Exception 
     {
@@ -31,6 +32,7 @@ public class Gmail
     public void test(String Username, String Password) throws InterruptedException, AWTException 
     {
     	
+    //  ***************** GMAIL LOGIN ******************************  	
         driver.get("https://www.gmail.com");
         
         WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -45,6 +47,8 @@ public class Gmail
 
 
         driver.findElement(By.id("signIn")).click();
+        
+    //  ***************** COMPOSE MAIL ******************************
         
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(text(),'COMPOSE')]")));
         
@@ -68,7 +72,7 @@ public class Gmail
         element.click();
         element.sendKeys("\n Name: Tushar Gutgutia \n Contact No: 9619537302 \n Link to github : https://github.com/TusharGutgutia/Tushar");
         
-        
+    //  ***************** SEND MAIL ******************************
         
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//div[contains(text(),'Send')]")).click();
@@ -80,7 +84,7 @@ public class Gmail
        driver.quit();
     }
 
-
+ //  ***************** PARMAETERIZE LOGIN CREDENTIALS ******************************
 
 @DataProvider
 public Object[][] getData(){
