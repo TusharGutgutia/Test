@@ -52,11 +52,11 @@ public class Gmail
                  
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//textarea[@name='to']")));
-        driver.findElement(By.xpath("//textarea[@name='to']")).sendKeys("t.gutgutia@gmail.com");
+        driver.findElement(By.xpath("//textarea[@name='to']")).sendKeys("hiring@coriolis.co.in");
         
         
         driver.findElement(By.xpath("//span[contains(@class,'aB gQ pE')]")).click();
-        driver.findElement(By.xpath("//textarea[@name='cc']")).sendKeys("tushar.g@vserv.com");
+        driver.findElement(By.xpath("//textarea[@name='cc']")).sendKeys("shrikant.katkojwar@coriolis.co.in");
 
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
@@ -87,11 +87,11 @@ public Object[][] getData(){
 	
 	Object data[][] = new Object[2][2];
 	// row 1
-	data[0][0]="tusharvserv@gmail.com";
+	data[0][0]="tusharvserv@gmail.com";//Change user credentials
 	data[0][1]="123456";
 	
 	// row 2
-	data[1][0]="t.gutgutia@gmail.com";
+	data[1][0]="t.gutgutia@gmail.com";//Change use credentials
 	data[1][1]="987654";
 	
 	
