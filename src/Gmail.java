@@ -66,7 +66,7 @@ public class Gmail
 
         element = driver.findElement(By.xpath("//div[@class='Ar Au']//div"));
         element.click();
-        element.sendKeys("\n Name: Tushar Gutgutia \n Contact No: 9619537302 \n Link to github :");
+        element.sendKeys("\n Name: Tushar Gutgutia \n Contact No: 9619537302 \n Link to github : https://github.com/TusharGutgutia/Tushar");
         
         
         
@@ -88,11 +88,11 @@ public Object[][] getData(){
 	Object data[][] = new Object[2][2];
 	// row 1
 	data[0][0]="tusharvserv@gmail.com";
-	data[0][1]="vservdigi";
+	data[0][1]="123456";
 	
 	// row 2
-	data[1][0]="tushar.g@vserv.com";
-	data[1][1]="taruN@123";
+	data[1][0]="t.gutgutia@gmail.com";
+	data[1][1]="987654";
 	
 	
 	return data;
