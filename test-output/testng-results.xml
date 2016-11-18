@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40633" started-at="2016-11-18T04:50:23Z" finished-at="2016-11-18T04:51:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40633" started-at="2016-11-18T04:50:23Z" finished-at="2016-11-18T04:51:04Z">
+      <class name="Gmail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Gmail@7825114a]" name="setUp" is-config="true" duration-ms="1779" started-at="2016-11-18T10:20:23Z" finished-at="2016-11-18T10:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Gmail@7825114a]" name="test" duration-ms="17155" started-at="2016-11-18T10:20:25Z" data-provider="getData" finished-at="2016-11-18T10:20:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tusharvserv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vservdigi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Gmail@7825114a]" name="teardown" is-config="true" duration-ms="233" started-at="2016-11-18T10:20:42Z" finished-at="2016-11-18T10:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Gmail@7825114a]" name="setUp" is-config="true" duration-ms="3798" started-at="2016-11-18T10:20:42Z" finished-at="2016-11-18T10:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Gmail@7825114a]" name="test" duration-ms="17501" started-at="2016-11-18T10:20:46Z" data-provider="getData" finished-at="2016-11-18T10:21:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tushar.g@vserv.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taruN@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Gmail@7825114a]" name="teardown" is-config="true" duration-ms="103" started-at="2016-11-18T10:21:04Z" finished-at="2016-11-18T10:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Gmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
